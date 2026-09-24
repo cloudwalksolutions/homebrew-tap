@@ -6,31 +6,31 @@ cask "tars" do
     end
   end
 
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     on_arm do
-      sha256 "ab2fa3e2212755a61469e69a8bda12dfc00d19a4968c0a782af0ec0696977826"
+      sha256 "5ecdfaf11e9f53e751a6a75dbc9c7964be4bb8c47902d3dfe3dad3ea4c92e4aa"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "56f42f17178f56aa502b0c52ac815ff9f3a8a7d7431d1fae2370fba2458489b0"
+      sha256 "761f2fc0b0faaab32eaa1a70dc48b0264d921b71f5d2f8b73b5522a3d04763f2"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "3ce78316352ccaadfcc74c470e13101547daf2a9e5d8d416e1d4fe3f6b407b4e"
+      sha256 "433b9b2f2ec6a6aff08177247579416ea32dd1bc46cbbf679a1a3f11d1661a79"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "98e1b3d705062236bdd3e1e77371d061961003b8857c3fae8cadba2510b29a24"
+      sha256 "6b1432e968bc9d0b96c2bc6e2aa9fa317f12a1ee6ed506e370e77681a506831b"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "tars"
-  desc "CloudWalk dev-machine setup CLI (dotfiles, tools, fonts, terminals)"
+  desc "tars — dev-machine setup CLI (dotfiles, tools, fonts, terminals, byobu sessions, git profiles)"
   homepage "https://github.com/cloudwalksolutions/machine-setup"
 
   livecheck do
