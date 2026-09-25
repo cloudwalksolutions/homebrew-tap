@@ -6,25 +6,25 @@ cask "tars" do
     end
   end
 
-  version "0.1.16"
+  version "0.1.17"
 
   on_macos do
     on_arm do
-      sha256 "a4e06cff7e8c3ec214db72af46f5553038b87c05a4c83b6cdd6a056c727707b5"
+      sha256 "d47f7c6f07ce458b17d51cdf332d34101399cc2ece49b0bb13b3174d79122dbf"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "55ce80a03bf1796d1fd3039d59de093a57e806277f1c64b033094e4c620bfae1"
+      sha256 "b64f016f1ece48f4485ad65b4f6fb7587fe61683f8258fbcf8c05e142b71314a"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5a7ebce79069803d82977752adaeba06380b4f115aab67c91d92d621f92eac78"
+      sha256 "86cea8b3628e21061bc05a13a67c8413e9d992b06d97f71b4e02deaec33e118c"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "18070ee6e14fdcaa9a17a3f626d5789ea544690a6a29e96eb68b70b7b5d0240c"
+      sha256 "7a5409a8e7525ef21e1d1f2d87529cee16012bf021062573a989708b937fe101"
       url "https://github.com/cloudwalksolutions/machine-setup/releases/download/v#{version}/tars_#{version}_linux_amd64.tar.gz"
     end
   end
