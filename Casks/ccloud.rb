@@ -6,25 +6,25 @@ cask "ccloud" do
     end
   end
 
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     on_arm do
-      sha256 "f8fc403e91523c4b6fd6e3ad83166cdda2db2c524ce6eca61c67a95d57d8660b"
+      sha256 "c0594b26f50f4517a778b6bdd7640cf50d8ae2105cb7c8732b2bbd84e8396ff7"
       url "https://github.com/cloudwalksolutions/ccloud/releases/download/v#{version}/ccloud_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "402b67297669569ece80db03db098ba7c04f5163077132c33ae855ceb4f25193"
+      sha256 "54d9bfbe4c118ba9a5d227e65a86c8032c7f50edd3f643aa99b92f7677577ac0"
       url "https://github.com/cloudwalksolutions/ccloud/releases/download/v#{version}/ccloud_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "07c07df29dbf8767969ed61a79b173d73bc3bd37234d45a308feee747a1a68c2"
+      sha256 "e3d81acc97d1f572e8f0dccb6518b2c48b068a2850c6161205365f7b12303f2d"
       url "https://github.com/cloudwalksolutions/ccloud/releases/download/v#{version}/ccloud_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c79f8bdb0a2c228105b9b9645abfb5d908157c5ae57e8704c765948fb3da8ad6"
+      sha256 "0b3867f7a01f349339065a5a7b3d3da394425d6d82701ea35177c946f88d181a"
       url "https://github.com/cloudwalksolutions/ccloud/releases/download/v#{version}/ccloud_#{version}_linux_amd64.tar.gz"
     end
   end
